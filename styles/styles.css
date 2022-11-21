@@ -82,3 +82,30 @@ ul {
     padding-block: 4px;
     border-style: hidden;
 }
+
+.info-primary-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-img-subtext {
+    /* justify-content: center; */
+    font-size: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+.info-img-subtext img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 7px;
+}
